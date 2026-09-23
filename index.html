@@ -11,6 +11,13 @@
     <h1>Calculadora</h1>
     <input type="text" id="pantalla" value="0" readonly>
 
+    <div class="memoria">
+      <button class="mem" onclick="memoriaLimpiar()">MC</button>
+      <button class="mem" onclick="memoriaRecuperar()">MR</button>
+      <button class="mem" onclick="memoriaSumar()">M+</button>
+      <button class="mem" onclick="memoriaRestar()">M−</button>
+    </div>
+
     <div class="botones">
       <button class="accion" onclick="limpiar()">C</button>
       <button class="accion" onclick="borrar()">⌫</button>
